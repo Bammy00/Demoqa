@@ -103,7 +103,7 @@ const driver = new Builder().forBrowser('chrome').setChromeOptions(options).buil
         const downloadButton = await driver.findElement(By.id('downloadButton'));
 
         // Upload a file
-        const filePath = 'path_to_your_file.txt';
+        const filePath = 'path_to_your_file.png';
         await uploadFileInput.sendKeys(filePath);
 
         // Download the file
